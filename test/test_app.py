@@ -9,7 +9,7 @@ from app import app
 client = app.test_client()
 
 def test_get_products():
-    response = client.get('/products')
+    response = client.get('/api/products')
     assert response.status_code == 200
     data = json.loads(response.data)
     assert len(data) > 0
