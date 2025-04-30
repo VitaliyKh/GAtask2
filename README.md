@@ -1,3 +1,6 @@
+[![Python application](https://github.com/VitaliyKh/GAtask2/actions/workflows/python-app.yml/badge.svg)](https://github.com/VitaliyKh/GAtask2/actions/workflows/python-app.yml)
+
+
 # Flask Product API
 
 This is a simple Flask API for managing product data. The API allows you to perform basic CRUD (Create, Read, Update, Delete) operations on products.
